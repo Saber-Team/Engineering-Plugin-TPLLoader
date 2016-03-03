@@ -1,0 +1,28 @@
+{
+  "name": "et-plugin-tplloader",
+  "version": "1.0.0",
+  "description": "tpl resource loader plugin for soi",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Saber-Team/Engineering-Plugin-TPLLoader.git"
+  },
+  "keywords": [
+    "tpl",
+    "loader",
+    "soi",
+    "engineering"
+  ],
+  "author": "AceMood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Saber-Team/Engineering-Plugin-TPLLoader/issues"
+  },
+  "homepage": "https://github.com/Saber-Team/Engineering-Plugin-TPLLoader"
+}
