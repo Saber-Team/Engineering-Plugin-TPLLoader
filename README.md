@@ -1,2 +1,3 @@
 # Engineering-Plugin-TPLLoader
-S.O.I tpl resource loader plugin for Baidu.Inc ZDH
+soi tpl resource loader plugin for Baidu.Inc ZDH.
+soi tpl resource compiler plugin for Baidu.Inc ZDH.
