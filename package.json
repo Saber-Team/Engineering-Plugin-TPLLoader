@@ -1,6 +1,6 @@
 {
   "name": "et-plugin-tplloader",
-  "version": "0.2.0",
+  "version": "0.3.2",
   "description": "tpl resource loader plugin for soi",
   "main": "index.js",
   "engines": {
