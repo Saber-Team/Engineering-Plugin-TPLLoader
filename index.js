@@ -26,3 +26,4 @@
 
 exports.TPL = require('./lib/tpl');
 exports.TPLLoader = require('./lib/loader');
+exports.TPLCompiler = require('./lib/compiler');
