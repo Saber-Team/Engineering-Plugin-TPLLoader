@@ -117,17 +117,22 @@ describe('matcher', function() {
     });
   });
 
-  xit('should flush content to destination', function(done) {
-    var css = new CSS(node_path.join(testData, 'empty.css'));
-    var cssContent = 'html, body { border: 0 }';
-    css.setContent(cssContent);
+  describe('image cases', function() {
+    const fn = 'bar.png';
+    const imageRe = new RegExp(matcher.imageTagRe, 'igm');
 
-    var distp = node_path.join(testData, 'dist.css');
-    css.flush(distp, function() {
-      var css = new CSS(distp);
-      expect(css.getContent()).to.deep.equal(cssContent);
-      fs.unlinkSync(distp);
-      done();
+    it('should retrieve src of script tag', function() {
+      let content = fs.readFileSync(node_path.join(testData, 'image.tpl'), {
+        encoding: 'utf8'
+      });
+      let count = 0;
+
+      content.replace(imageRe, (tag, src) => {
+        count++;
+        expect(src).to.deep.equal(fn);
+      });
+
+      expect(count).to.equal(3);
     });
   });
 });

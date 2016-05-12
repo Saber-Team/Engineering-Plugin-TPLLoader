@@ -7,5 +7,5 @@
 
 <link href="bar.css" />
 
-<script type="text/javascript" src="bar.js">
-</script>
+<link type="text/javascript" href="bar.css">
+</link>
