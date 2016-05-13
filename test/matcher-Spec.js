@@ -113,7 +113,7 @@ describe('matcher', function() {
         expect(href).to.deep.equal(fn);
       });
 
-      expect(count).to.equal(5);
+      expect(count).to.equal(6);
     });
   });
 

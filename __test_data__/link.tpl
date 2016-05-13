@@ -9,3 +9,5 @@
 
 <link type="text/javascript" href="bar.css">
 </link>
+
+<link href="bar.css">
